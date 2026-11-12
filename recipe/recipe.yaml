@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "6.1.1"
+  version: "6.2.0"
 
 package:
   name: oslotest
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/o/oslotest/oslotest-${{ version }}.tar.gz
-  sha256: 5ce97347734f08ca626bb496962a8bc7adbae9693730f5859d9c5293d4a2fd80
+  sha256: 1bd4e2dfc6dfc6612346436b4e3fa3d859319dcbcce069f5d00c38cc31d101cf
   patches:
     # do not install the oslo_debug_helper shell script, it's not portable
     # and we do not really need it
